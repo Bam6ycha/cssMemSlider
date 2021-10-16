@@ -193,3 +193,61 @@ input {
 input {
   visibility: hidden;
 }
+
+@media (max-width: 760px) {
+  .containerImg {
+    row-gap: 50px;
+    align-items: center;
+  }
+  .description {
+    text-align: center;
+  }
+  .containerImg > img {
+    height: 81%;
+  }
+  .position1 {
+    position: fixed;
+    bottom: 11rem;
+    right: 56%;
+  }
+  .position2 {
+    position: fixed;
+    bottom: 11rem;
+    right: 52%;
+  }
+  .position3 {
+    position: fixed;
+    bottom: 11rem;
+    right: 48%;
+  }
+  .position4 {
+    position: fixed;
+    bottom: 11rem;
+    right: 44%;
+  }
+}
+@media (max-width: 320px) {
+  .position1 {
+    position: fixed;
+    bottom: 17rem;
+    right: 60%;
+  }
+  .position2 {
+    position: fixed;
+    bottom: 17rem;
+    right: 51%;
+  }
+  .position3 {
+    position: fixed;
+    bottom: 17rem;
+    right: 43%;
+  }
+  .position4 {
+    position: fixed;
+    bottom: 17rem;
+    right: 35%;
+  }
+  .containerImg > img {
+    height: 48%;
+  }
+}
