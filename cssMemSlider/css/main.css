@@ -194,7 +194,7 @@ input {
   visibility: hidden;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .containerImg {
     row-gap: 50px;
     align-items: center;
@@ -207,22 +207,22 @@ input {
   }
   .position1 {
     position: fixed;
-    bottom: 11rem;
+    bottom: 21rem;
     right: 56%;
   }
   .position2 {
     position: fixed;
-    bottom: 11rem;
+    bottom: 21rem;
     right: 52%;
   }
   .position3 {
     position: fixed;
-    bottom: 11rem;
+    bottom: 21rem;
     right: 48%;
   }
   .position4 {
     position: fixed;
-    bottom: 11rem;
+    bottom: 21rem;
     right: 44%;
   }
 }
